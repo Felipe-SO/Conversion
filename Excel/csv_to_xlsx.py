@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 
-# Converts .xlsx to .csv.
+# Converts .csv to .xlsx.
 # Insert the path (as a string) to the exact folder where your files are.
 def csv_xlsx(path):
     for file in os.listdir(path):
